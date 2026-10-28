@@ -1,0 +1,240 @@
+/* ==============================================================
+   Smart Library System - Stylesheet
+   Design based on the provided student web template
+   ============================================================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* 1. Header Banner (Khaki / Olive Green from template) */
+.top-banner {
+  background-color: #b5b274;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 15px 22px 15px;
+}
+
+.top-banner h1 {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.top-banner nav {
+  font-size: 14px;
+}
+
+.top-banner nav a {
+  color: #3e3b1c;
+  text-decoration: underline;
+  margin: 0 8px;
+  font-weight: 500;
+}
+
+.top-banner nav a:hover {
+  color: #000000;
+}
+
+/* 2. Main Content Area */
+.content-container {
+  max-width: 860px;
+  margin: 25px auto 40px auto;
+  padding: 0 20px;
+}
+
+/* Quick Stats Bar */
+.summary-line {
+  background-color: #f7f6ec;
+  border: 1px solid #dcdac0;
+  padding: 8px 12px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* Content Sections */
+.section {
+  margin-bottom: 35px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #222222;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #333333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Search Row */
+.search-row {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-row input[type="text"] {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 13px;
+  border: 1px solid #999;
+}
+
+.regex-toggle {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 13px;
+}
+
+table, th, td {
+  border: 1px solid #b8b8b8;
+}
+
+th {
+  background-color: #eae8cb;
+  padding: 8px 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  padding: 6px 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #faf9f5;
+}
+
+/* Forms using simple table layout */
+.form-table {
+  width: 100%;
+  max-width: 550px;
+  margin: 10px auto;
+  border: none;
+}
+
+.form-table td {
+  border: none;
+  padding: 5px 8px;
+  vertical-align: middle;
+}
+
+.form-table label {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  padding: 5px 8px;
+  font-size: 13px;
+  width: 100%;
+  border: 1px solid #999999;
+  box-sizing: border-box;
+}
+
+.field-note {
+  font-size: 11px;
+  color: #666;
+  margin-left: 6px;
+}
+
+/* Browser-native styled buttons matching the screenshot */
+button {
+  background-color: #f0f0f0;
+  border: 1px solid #707070;
+  border-radius: 2px;
+  padding: 4px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #000000;
+}
+
+button:hover {
+  background-color: #e2e2e2;
+}
+
+button:active {
+  background-color: #cccccc;
+}
+
+.btn-del {
+  background-color: #ffeded;
+  border: 1px solid #d99;
+  color: #900;
+  padding: 2px 6px;
+  font-size: 11px;
+}
+
+.btn-del:hover {
+  background-color: #ffd6d6;
+}
+
+/* Feedback Messages */
+.msg-text {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 8px;
+  font-weight: bold;
+  min-height: 16px;
+}
+
+.msg-success {
+  color: #1e7e34;
+}
+
+.msg-error {
+  color: #bd2130;
+}
+
+.text-danger {
+  color: #c82333;
+  font-weight: bold;
+}
+
+.text-success {
+  color: #1e7e34;
+}
+
+/* 3. Dark Charcoal Footer matching template */
+.footer-bar {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 22px 15px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.footer-bar p {
+  margin: 0;
+}
